@@ -1,0 +1,266 @@
+body {}
+
+
+/*#logo img {
+	margin: 7px;
+}*/
+
+video {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+#menu {
+  background-color: #4793e5;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+#menu nav {
+  display: table;
+  width: 100%;
+}
+
+#menu nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 15px 0;
+  display: table-cell;
+}
+
+#menu a:hover {
+  background-color: #1f70c6;
+  color: #ffffff;
+}
+
+.redonda {
+  border-radius: 50%
+}
+
+.alunos, li {
+  text-align: center;
+  color: #1f70c6;
+  display: inline-block;
+}
+
+.concertar img {
+  margin-bottom: 5px;
+  max-width: 100%;
+}
+
+.cardapio p {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold 700;
+  margin-top: 25px;
+}
+
+.bebidas p {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold 700;
+}
+
+.bebidas {
+  margin-bottom: 50px;
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #4793e5;
+  text-align: center;
+  margin: 25px 0px 75px 0px;
+}
+
+b {
+  font-weight: bold;
+}
+
+#banner img {
+  width: 100%;
+}
+
+.corsobreeventos {
+  background-color: #4793e5;
+}
+
+.corsobreeventos h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin: 25px 0px 75px 0px;
+}
+
+*:before, *:after, * {
+  font-family: 'Lato', sans-serif;
+}
+
+.footer {
+  margin: 0px 0;
+  padding: 5px;
+  padding-bottom: 10%;
+  background: #4793e5;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold 700;
+}
+
+.footer a {
+  margin-left: 10px;
+}
+
+.cor {
+  background-color: #1f70c6;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold 700;
+}
+
+.cardapio img {
+  max-width: 100%;
+  margin: 5px 0px;
+}
+
+.bebidas img {
+  max-width: 100%;
+  margin: 5px 0px;
+}
+
+.consertar {
+  height: 120px;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.sobre p {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold 300;
+}
+
+form {
+  border: 1px solid #ccc;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.cancelarbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtcancelarbt, .inscreverbtn {
+  float: left;
+  width: 100%;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #BDBDBD;
+  padding-top: 50px;
+}
+
+.modal-conteudo {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.fechar {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.fechar:hover, .fechar:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.clearfix::after {
+  conteudo: "";
+  clear: both;
+  display: table;
+}
+
+span {
+  color: #1f70c6;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelarbtn, .inscreverbtn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  #logo {
+    text-align: center;
+  }
+  #menu nav {
+    display: block;
+  }
+  #menu nav a {
+    display: block;
+  }
+}
