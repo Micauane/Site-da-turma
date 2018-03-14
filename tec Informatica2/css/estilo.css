@@ -39,7 +39,8 @@ video {
 }
 
 .redonda {
-  border-radius: 50%
+  border-radius: 50%;
+  max-width: 100%;
 }
 
 .alunos, li {
