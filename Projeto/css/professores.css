@@ -1,0 +1,26 @@
+h2{
+  color: #4793e5;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+h4{
+  font-size: 12px;
+}
+
+h5{
+  font-size: 15px;
+}
+
+.redonda{
+  max-width: 90%;
+  border-radius: 50%;
+}
+
+.professor{
+  margin-bottom: 50px;
+}
