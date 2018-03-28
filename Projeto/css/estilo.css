@@ -5,7 +5,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #4793e5;;
 }
 
 .topnav a {
@@ -24,7 +24,7 @@ body {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #1f70c6;
   color: white;
 }
 
@@ -63,6 +63,9 @@ h2{
   color: #4793e5;
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 50px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
 
 h3{
@@ -101,6 +104,14 @@ p{
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+}
+
+.sobre_eventos{
+  background-color: #4793e5;
+}
+
+.sobre_eventos h2{
+  color: #ffffff;
 }
 
 /* .................................................................................................................................. */
