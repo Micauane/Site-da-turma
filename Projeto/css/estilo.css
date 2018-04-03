@@ -93,6 +93,7 @@ h5{
 .roll img{
   max-width: 100%;
   margin: 3px;
+  margin-bottom: 28%;
 }
 
 p{
@@ -115,3 +116,28 @@ p{
 }
 
 /* .................................................................................................................................. */
+#areas {
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom:16px;
+}
+footer{
+  font-family: 'Lato', sans-serif;
+  font-weight:bold 700;
+  background-color:#4793e5;
+  color: #ffffff;
+  padding-bottom: 10%;
+}
+.titulo h5{
+  font-weight:bold 700;
+  background-color:#4793e5;
+  color: #ffffff;
+}
+#rodape{
+  background-color: #1f70c6;
+  padding: 2%;
+  font-weight:lighter;
+  color: #ffffff;
+  text-align: center;
+}
