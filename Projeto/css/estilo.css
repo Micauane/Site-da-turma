@@ -68,18 +68,6 @@ h2{
   font-family: 'Lato', sans-serif;
 }
 
-h3{
-  font-size: 20px;
-}
-
-h4{
-  font-size: 12px;
-}
-
-h5{
-  font-size: 15px;
-}
-
 .redonda{
   max-width: 90%;
   border-radius: 50%;
@@ -88,8 +76,48 @@ h5{
 .professor{
   margin-bottom: 50px;
 }
+.professor span{
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  color: #1f70c6;
+  font-size: 16px;
+}
+.professor h4{
+  font-weight:lighter;
+  font-family: 'Lato', sans-serif;
+  color: #252524;
+  font-size: 16px;
+}
+.professor h5{
+  margin: 15px;
+  font-weight:500;
+  font-family: 'Lato', sans-serif;
+  color: #252524;
+  font-size: 20px;
+  text-align: center;
+}
 /* .................................................................................................................................. */
-
+.eventos h4{
+  font-weight:500;
+  font-family: 'Lato', sans-serif;
+  color: #252524;
+  text-align: justify;
+}
+.eventos p{
+  font-weight:300;
+  font-family: 'Lato', sans-serif;
+  color: #4a4c4b;
+}
+.Sobre_eventos2 h3{
+  font-weight:500;
+  font-family: 'Lato', sans-serif;
+  color: #252524;
+}
+.Sobre_eventos2 p{
+  font-weight:300;
+  font-family: 'Lato', sans-serif;
+  color: #161a1f;
+}
 .roll img{
   max-width: 100%;
   margin: 3px;
@@ -129,6 +157,13 @@ footer{
   color: #ffffff;
   padding-bottom: 10%;
 }
+footer h3{
+  font-family: 'Lato', sans-serif;
+  font-weight:lighter;
+  background-color:#4793e5;
+  color: #ffffff;
+  font-size: 23px;
+}
 .titulo h5{
   font-weight:bold 700;
   background-color:#4793e5;
@@ -140,4 +175,109 @@ footer{
   font-weight:lighter;
   color: #ffffff;
   text-align: center;
+  font-size: 12px;
+}
+/*...........................................................................................................*/
+form {
+  border: 1px solid #ccc;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.cancelarbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtcancelarbt, .inscreverbtn {
+  float: left;
+  width: 100%;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #BDBDBD;
+  padding-top: 50px;
+}
+
+.modal-conteudo {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.fechar {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.fechar:hover, .fechar:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.clearfix::after {
+  conteudo: "";
+  clear: both;
+  display: table;
+}
+
+span {
+  color: #1f70c6;
+}
+
+.concertar{
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.paginator{
+  height: 236px;
+  background-color: #fbfbfb;
+  display: block;
+  text-align: center;
+  line-height: 200px;
 }
