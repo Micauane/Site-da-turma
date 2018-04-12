@@ -103,11 +103,7 @@ h2{
   color: #252524;
   text-align: justify;
 }
-.eventos p{
-  font-weight:300;
-  font-family: 'Lato', sans-serif;
-  color: #4a4c4b;
-}
+
 .Sobre_eventos2 h3{
   font-weight:500;
   font-family: 'Lato', sans-serif;
@@ -116,7 +112,7 @@ h2{
 .Sobre_eventos2 p{
   font-weight:300;
   font-family: 'Lato', sans-serif;
-  color: #161a1f;
+  color: #4a4c4b;
 }
 .roll img{
   max-width: 100%;
@@ -135,12 +131,8 @@ p{
   -webkit-box-orient: vertical;
 }
 
-.sobre_eventos{
+.cor_eventos{
   background-color: #4793e5;
-}
-
-.sobre_eventos h2{
-  color: #ffffff;
 }
 
 /* .................................................................................................................................. */
